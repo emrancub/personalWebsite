@@ -27,17 +27,18 @@ h1{
 h2{
     font-size: 42px;
 }
+h4{
+    font-size: 25px;
+    color: #696871;
+}
 .meanu{
-    border: 1px solid red;
     height: 40px;
 }
 .about-section{
     height: 650px;
-    border: 1px solid red;
 }
 .top-section{
     height: 600px;
-    border: 1px solid red;
     padding-top: 20px;
 }
 .half-width{
@@ -59,7 +60,6 @@ h2{
 }
 .project-section{
     height: 650px;
-    border: 1px solid red;
     background-color: #F8F9FC;
 }
 .third-width{
@@ -77,7 +77,6 @@ h2{
     text-align: center;
 }
 .work-section{
-    border: 1px solid red;
     height: 200px;
     position: relative;
 
@@ -90,13 +89,17 @@ h2{
     margin-right: auto;
 }
 .footer{
-    border: 1px solid red;
     height: 300px;
     text-align: center;
 }
 .icons{
-    float:left;
+    float: left;
     width: 100%;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
 }
 .center{
     position: absolute;
